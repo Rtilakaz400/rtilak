@@ -1,0 +1,13 @@
+body{
+    background-color: aquamarine;
+}
+
+table {
+    border-style: dotted;
+}
+
+h1{
+    color: white;
+    text-emphasis-style: 300px;
+    width: 300px;
+}
