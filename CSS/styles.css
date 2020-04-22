@@ -1,126 +1,151 @@
 body{
-    margin:0px;
+    margin:0;
+}
+.firstdiv{
+   background-color: skyblue; 
+   text-align: right;
+   height: 2rem;
+   padding: 1rem 1rem 3rem;
+}
+a{
+    text-decoration: none;
+    padding: 0 1.5em;
+    
+}
+.topdiv{
+    background-color: skyblue;
+    height: auto;
+}
+.topcloud{
+    position: absolute;
+    right: 5em;
+    margin: 0 auto auto auto;
+    max-width: 20%;
+    height: auto;    
+}
+.bottomcloud{
+    position: absolute;
+    left: 3rem;
+    margin: 0 auto auto auto;
+    max-width: 30%;
+
+}
+.h1h2topdiv{
+    
+    display: inline;
+    padding: 2rem;
     text-align: center;
-    
 }
-
-.name{
-    background-color: aqua;
-    margin-top: 0px;
-    color: #66BFBF;
-}
-    
-.namediv{
-    font-weight: normal;
-    margin: 0;
-    font-size: 2.5rem;
-}
-
 h1{
-    padding-top: 40px;
-    margin: 0px;
-    font-style: italic;
-    font-size: 5.2rem;
-    font-family: 'Sacramento', cursive;
-    
-}
-.mypic{
-    border-radius: 200px;
-    height:100px;
-    width: 100px;
-}
-
-.Sec{
-    font-family: Arial, Helvetica, sans-serif;
- 
-}
-.thi{
-    margin: 50px auto 100px auto;
-    height: 250px;
-    
-    border: 0;
-    padding: 0%;
-    width: 50%;
-}
-
-    .thip{
-        text-align: left;
-        line-height: 1rem;
-        position: relative;
-        left: 30px;
+    margin: 0em;
+    font-size: 4rem;
+    font-family: 'Bangers', cursive;
     }
 
-
-.skillimg1{
-    margin: 0;
-    border-radius: 500px;
-    width: 100px;
-    height: 100px;
-    position: relative;
-    bottom: 20px;
-    left: 140px;
-    float: left;
+ h2{
+    font-family: 'Pacifico', cursive;
+ }   
+.mount{
+    margin:0 auto; 
     
-}
-.cssimg{
-    width: 180px;
-    height: 180px;
+    width: 100%;
+    height: auto;
     position: relative;
-    top: 60px;    
-    float: left;
 }
-
-.to{
-    text-decoration: underline;
-    text-shadow: silver;
+.aboutme{
+    position:relative;
+    left: 20%;
+    
+    text-align:center;
+    height: auto;
+    max-width: 60%;
 }
-
-.top-cloud{
-    position: relative;
-    left: 400px;
-}
-
-.bottom-cloud{
-    position: absolute;
-left: 150px;
+.mypic{
+    border-radius: 100px;
+    height: 100px;
 }
 hr{
-     width: 40%;
-     border-width: 5px;
-     border-style: dotted;
-     border-bottom: none;
-    color: #11999e;
+    
+    border-style: dotted;
+    width: 30%;
+    border-width: 5px 0 0 0;
+    border-color: cornflowerblue;
+}
+.skills{
+    text-align: center;
+    display: block;
+    padding-bottom: 2rem;
+}
+.first_skill{
+    
+    text-align:center;
+    position: relative;
+    left:20%;
+    max-width: 60%;
+    }
+.computerimg{
+    height: 100px;
+    width: 100px;
+    border-radius: 200%;
+    float: left;
     
 }
-h3{
-    padding-bottom: 80px;
-    color: #11999e;
-    margin: 0;
-    font-family: 'Comic Neue', cursive;
-    text-decoration: underline;
+.skill1{
+      
+    text-align: left;
+    margin-left: 20px;
+   
+    
 }
+.Computer_Admin{
+    text-align:left;
+    }
 
+.second_skill {
+    padding-top: 7px;
+    text-align: center;
+    position: relative;
+    left:20%;
+    max-width: 60%;
+}
+.cssimg
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 200%;
+    float: right;
+}
+.skill2{
+    text-align: left;
+    position: relative;
+
+}
+.Coding{
+    text-align: left;
+    margin: 2px;
+}
 .contactme{
-   
-    text-decoration-color: blue;
-    font-family: fantasy;
-    border-radius: 8%;
-    font-size: 16px;
-  }  
-
-  button{
-    color: blue;
+    text-align: center;
+    width: 60%;
+    position: relative;
+    left: 20%;
+    height: auto;
 }
 
-  .bottomdiv{
-   
-    background-color: #11999e;
-    height: 25px;
+.contactbutton{
+    background-color: cyan;
+    height: 2rem;
+    border-radius: 100px;
+    font-family: fantasy;
+    font-size: 1.5rem;
+}
+.contactbutton:hover{
+    background-color: skyblue;
+}
+.finaldiv{
     
-  }
-  a{
-    text-decoration: black;
-    color: #66BFBF;
-    margin: 50px;
-   
+    background-color: skyblue;
+    text-align: center;
+    height: 2rem;
+    padding-top: 1rem;
 }
